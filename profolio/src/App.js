@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import work from './components/work';
 import Index from './components/Index';
 import Contact from './components/contact';
+import About from './components/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/service"  exact component={service}/>
         <Route path="/work"  exact component={work}/>
         <Route path="/contact"  exact component={Contact}/>
+        <Route path="/about"  exact component={About}/>
       
       </Router>
     </div>
