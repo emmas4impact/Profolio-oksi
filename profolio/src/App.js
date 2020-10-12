@@ -5,6 +5,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import work from './components/work';
 import Index from './components/Index';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/index"  exact component={Index}/>
         <Route path="/service"  exact component={service}/>
         <Route path="/work"  exact component={work}/>
+        <Route path="/contact"  exact component={Contact}/>
       
       </Router>
     </div>
