@@ -13,7 +13,7 @@ const About =()=>{
 					<li><a href="/index">Главная</a></li>
 					<li className="colorlib-active"><a href="about.html">О нас</a></li>
 					<li><a href="/work">Наши работы</a></li>
-					<li><a href="/services">FAQ</a></li>
+					<li><a href="/service">FAQ</a></li>
 				
 					<li><a href="/contact">Контакты</a></li>
 				</ul>
