@@ -8,6 +8,8 @@ import Index from './components/Index';
 import Contact from './components/contact';
 import About from './components/About';
 import Blog from './components/blog';
+import Blog2 from './components/blog2';
+import Blog1 from './components/blog1';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/contact"  exact component={Contact}/>
         <Route path="/about"  exact component={About}/>
         <Route path="/blog"  exact component={Blog}/>
+        <Route path="/blog2"  exact component={Blog2}/>
+        <Route path="/blog1"  exact component={Blog1}/>
       </Router>
     </div>
   );

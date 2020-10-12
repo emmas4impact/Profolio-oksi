@@ -12,7 +12,7 @@ const service =() =>{
 					<li ><a href="/about">О нас</a></li>
 					<li><a href="/work">Наши работы</a></li>
 					<li className="colorlib-active"><a href="/services">FAQ</a></li>
-					
+					<li><a href="/blog">Blog</a></li>
 					<li><a href="/contact">Контакты</a></li>
 				</ul>
 			</nav>
